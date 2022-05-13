@@ -6,4 +6,9 @@ router.get('/', (req,res)=>{
 	res.render('index.ejs');
 });
 
+router.get('/about', (req, res)=>{
+	res.send('');
+});
+
+
 module.exports = router;
