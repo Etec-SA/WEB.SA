@@ -1,7 +1,96 @@
-/*Style goes here.*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	outline: none; 
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
 }
+
+body{
+	min-height: 100vh;
+	background: radial-gradient(#ba68c8, #6a1b9a);
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: 1.5rem 10%;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    font-size: 1rem;
+    color: #fff;
+    padding: 6px 15px;
+}
+
+.header .navbar a:hover{
+    color: #000;
+    padding-bottom: .5rem;
+}
+
+.header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: radial-gradient(#ba68c8, #6a1b9a);
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 0px 10%;
+}
+
+.box h1{
+	color: #fff;
+	font-size: 2.7rem;
+}
+
+.box strong{
+	color: #ec8cff;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 10px 30px;
+	border-radius: 20px;
+	background: #5c037b;
+	color: #fff;
+}
+
+.about{
+	min-height: 100vh;
+	background: #fff;
+}
+
+
+
